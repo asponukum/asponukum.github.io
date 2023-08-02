@@ -32,6 +32,19 @@ All rights reserved. And whatever other legal stuff.
 <link rel="icon" type="image/x-icon" href="beaker.png">
 <meta name="viewport" content="initial-scale=1.0"></meta>
 <style>
+@media only screen and (max-width: 900px)  {
+  td {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 900px)  {
+  .mainpicture {
+    width: 38%;
+  }
+}
+
+
 body {
   margin: 0 auto;
   font-family: Helvetica;
@@ -81,9 +94,8 @@ img {
   float: left;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1% 2%;
   text-decoration: none;
-  font-size: 17px;
 }
 
 .navbar a:hover {
@@ -139,8 +151,8 @@ a:visited {
 <div class="box firstbox">
 <div class="maindoc">
   <table border=0>
-  <tr><td width=38%><center><h2>Aditya Ponukumati</h2></center></td></tr>
-  <tr><td><table align="center"><tr><td><img src="foxreal.png" class="realpic" width=75%></img></td></tr><tr><td><table width=100%><tr align="center"><td width=25%><a href="mailto:aditya.ponukumati@wustl.edu"><img style="border-radius: 0px;" width=25px src="email.png"></img></a></td><td width=25%><a href="tel:+17033091249"><img style="border-radius: 0px;" width=25px src="phone.png"></img></a></td><td width=25%><a href="https://www.linkedin.com/in/asponukum/"><img style="border-radius: 0px;" width=25px src="linkedin.png"></img></a></td><td width=25%><a href="https://scholar.google.com/citations?user=IyDNg2oAAAAJ"><img style="border-radius: 0px;" width=25px src="scholar.png"></img></a></td></tr></table></td></tr></table></td><td><h3>Summary</h3>
+  <tr><td width=38%></td></tr>
+  <tr><td><table align="center"><tr><td><center><h2 width=100%>Aditya Ponukumati</h2></center><img src="foxreal.png" class="realpic" width=75%></img></td></tr><tr><td><table width=100%><tr align="center"><td width=25%><a href="mailto:aditya.ponukumati@wustl.edu"><img style="border-radius: 0px;" width=25px src="email.png"></img></a></td><td width=25%><a href="tel:+17033091249"><img style="border-radius: 0px;" height=25px src="phone.png"></img></a></td><td width=25%><a href="https://www.linkedin.com/in/asponukum/"><img style="border-radius: 0px;" width=25px src="linkedin.png"></img></a></td><td width=25%><a href="https://scholar.google.com/citations?user=IyDNg2oAAAAJ"><img style="border-radius: 0px;" width=25px src="scholar.png"></img></a></td></tr></table></td></tr></table></td><td><h3>Summary</h3>
   <p>Fifth-year chemical engineering graduate student specializing in chemical kinetics, reaction engineering, and analyzing complex data sets using multivariate statistical methods. Several years of professional experience in designing reaction systems for heterogeneous catalytic conversion of lignocellulosic biomass and clarifying lignin breakdown product distributions. Searching for a career as a chemical consultant, or broadly any role in charge of taking academic research and bringing it to the forefront of industry. I want to discover and implement new ideas. <i>Currently based in St. Louis, Missouri.</i></p>
   <h3>Education</h3>
   <p><b>Ph.D. in Chemical Engineering</b> &mdash; <i>Washington University</i> &mdash; St. Louis, Missouri (Exp. 2024)</p>
@@ -155,15 +167,15 @@ a:visited {
   <tr><td width=10%></td><td><h2>Advancing the state of biorefining one step at a time.</h2><h4><i>(Professional work.)</i></h4></td></tr></table>
   <div class="maindoc">
   <table>
-  <tr><td width=38%><img src="pmf.png" width=100%></img></td><td>
+  <tr><td class="mainpicture"><img src="pmf.png" width=100%></img></td><td>
   <h3>Synergizing analytical instrumentation and multivariate statistics</h3>
   <p>Many of the world's untapped resources are too heterogeneous to see industrial use. Lignin is a prime example: it is a complex heteropolymer component of plant-based biomass that produces thousands of chemical moieties when deconstructed. Understanding these lignin breakdown product distributions requires a combination of analytical and mathematical tools. Within this domain, I specialize in the synergy between gas chromatography-mass spectroscopy and factor analysis.</p>
-  <p class="product"><b>Ponukumati, A.</b>; Gao, Y.; Li, H.; Walker, M.; Zou, X.; Jeon, S.; Barrett, J.; Hosseinaei, O.; Harper, D.; Ford, P.; Williams, B.; Foston, M.; Chemical Profiling Catalytic Lignin Depolymerization Using Positive Matrix Factorization Deconvolution of Mass Spectral Data. <i>Manuscript in progress</i>.</p> </td></tr></table>
-  <table><tr><td width=38%><img src="pbe.png" width=100%></img></td><td>
+  <p class="product"><b>Ponukumati, A.</b>; Gao, Y.; Li, H.; Walker, M.; Zou, X.; Jeon, S.; Barrett, J.; Hosseinaei, O.; Harper, D.; Ford, P.; Williams, B.; Foston, M.; Chemical Profiling Catalytic Lignin Depolymerization Using Positive Matrix Factorization Deconvolution of Mass Spectral Data. <i>Manuscript in progress</i>.</p> </td></tr>
+  <tr><td><img src="pbe.png" width=100%></img></td><td>
   <h3>Modeling the time evolution of chemical catalytic systems</h3>
   <p>Chemical kinetics is the study of time, and I want to see into the future. Seeing into the future is especially necessary for heterogeneous catalytic systems, which are seldom as simple as A &rarr; B. My work focuses on monitoring chemical processes over time and creating models that simulate their evolution. This can take the form of routine rate constant calculations, suggesting reaction pathways and networks, or building population balance equations from first principles.</p>
-  <p class="product">Zhang, J.; Yang, Z.; <b>Ponukumati, A.</b>; Senanayake, M.; Pingali, S. V.; Foston, M.; In-situ Small Angle Neutron Scattering Reveals the Structural Evolution of Lignin during Catalytic Disassembly. <i>Manuscript in progress</i>.</p></td></tr></table>
-  <table><tr><td><img src="lbp.png" width=100%></img></td><td width=62%>
+  <p class="product">Zhang, J.; Yang, Z.; <b>Ponukumati, A.</b>; Senanayake, M.; Pingali, S. V.; Foston, M.; In-situ Small Angle Neutron Scattering Reveals the Structural Evolution of Lignin during Catalytic Disassembly. <i>Manuscript in progress</i>.</p></td></tr>
+  <tr><td><img src="lbp.png" width=100%></img></td><td>
   <h3>Integrating concepts from biological and chemical engineering</h3>
   <p>Much of the world's most complex chemistry is conveniently packaged in the form of living organisms. We can use these microorganisms and their metabolic pathways to produce speciality commodities from chemical cocktails. Because traditional chemical engineering techniques cannot handle this alone, I design systems to produce such value-added products using chemical and biological means in a hybrid manner.</p>
   <p class="product"><b>Ponukumati, A.</b>; Carr, R.; Gao, Y.; Shang, Z.; Krishnamurthy, A.; Moon, T.-S.; Foston, M.; Integrating lignin-first biorefining and biological funneling using wild-type Rhodococcus opacus PD630. <i>Manuscript in progress</i>.</p>
@@ -173,14 +185,14 @@ a:visited {
   <table style="background-color: lightgray;" width=100%>
   <tr><td width=10%></td><td><h2>Making a social impact outside the laboratory.</h2><h4><i>(Less professional work.)</i></h4></td></tr></table>
   <div class="maindoc">
-  <table><tr><td width=38%><img src="cheatdetection.png" width=85%></img></td><td>
+  <table><tr><td class="mainpicture"><img src="cheatdetection.png" width=85%></img></td><td>
   <h3>Applying trends in human decision-making to online cheat detection</h3>
   <p>The integrity of any society relies on trust, and chess is no exception. Unfortunately, mechanisms behind fair play enforcement systems have been kept under lock and key for the better part of 30 years. This has seriously battered down trust and stunted research in the field. As a result, current anti-cheat mechanisms are simply not capable of catching the most elusive cheaters and are very prone to false positive detections. I'm intent on open collaboration in this area, and I champion player behavior analysis as the proper way to develop an online chess cheat detection framework.</p>
   <p class="product">Laarhoven, T.; <b>Ponukumati, A.</b>; Towards Transparent Cheat Detection in Online Chess: An Application of Human and Computer Decision-Making Preferences. <i>Computers & Games</i>. (2023). <a href="https://doi.org/10.1007/978-3-031-34017-8_14">https://doi.org/10.1007/978-3-031-34017-8_14</a>.</p>
-  </td></tr></table>
-  <table><tr><td><img class="realpic" src="foxchess.PNG" width=50%></img></td><td width=62%>
+  </td></tr>
+  <tr><td><img class="realpic" src="foxchess.PNG" width=50%></img></td><td>
   <h3>Competing in regional and national chess tournaments</h3>
-  <p>Leading psychologists claim that chess is good for the mind. I don't really care about that; I'm just very competitive and want to win. I regularly compete in chess tournaments and turn a positive but insignificant profit every year. In previous years I've also been a chess coach for up-and-coming juniors in the northern Virginia area.</p>
+  <p>I'm very competitive and enjoy winning, so competitive chess is a reasonable hobby. I regularly compete in chess tournaments and turn a positive but insignificant profit every year. Occassionally, my results are good enough at big enough tournaments that they're worth bragging about. In previous years I've also been a chess coach for up-and-coming juniors in the northern Virginia area because teaching is rewarding.</p>
   <p class="product">3rd Place, Mid-America Open &mdash; Clayton, Missouri (2022).</p>
   <p class="product">1st Place, Northern Virginia Open &mdash; Dulles, Virginia (2023).</p>
   </td></tr>
@@ -193,7 +205,7 @@ a:visited {
 
 <br><br><nav>
 <div class="linkbar">
-<table width=100%><tr align="center"><td width=25%><a href="mailto:aditya.ponukumati@wustl.edu"><img style="border-radius: 0px;" width=30px src="email.png"></img></a></td><td width=25%><a href="tel:+17033091249"><img style="border-radius: 0px;" width=30px src="phone.png"></img></a></td><td width=25%><a href="https://www.linkedin.com/in/asponukum/"><img style="border-radius: 0px;" width=30px	0px src="linkedin.png"></img></a></td><td width=25%><a href="https://scholar.google.com/citations?user=IyDNg2oAAAAJ"><img style="border-radius: 0px;" width=30px src="scholar.png"></img></a></td></tr></table>
+<table width=100%><tr align="center"><td width=25%><a href="mailto:aditya.ponukumati@wustl.edu"><img style="border-radius: 0px;" width=30px src="email.png"></img></a></td><td width=25%><a href="tel:+17033091249"><img style="border-radius: 0px;" width=30px src="phone.png"></img></a></td><td width=25%><a href="https://www.linkedin.com/in/asponukum/"><img style="border-radius: 0px;" width=30px src="linkedin.png"></img></a></td><td width=25%><a href="https://scholar.google.com/citations?user=IyDNg2oAAAAJ"><img style="border-radius: 0px;" width=30px src="scholar.png"></img></a></td></tr></table>
 </div></nav>
 </body>
 </html>
